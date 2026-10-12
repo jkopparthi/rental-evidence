@@ -1,0 +1,12 @@
+# Local configuration (contains DB password)
+config/config.php
+
+# Uploaded evidence photos (private user data)
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
